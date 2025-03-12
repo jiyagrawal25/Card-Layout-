@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Top Navigation */
+.top-nav {
+    background-color: #8c1515;
+    color: white;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav h1 {
+    font-size: 1.5rem;
+}
+
+.search {
+    font-size: 0.875rem;
+}
+
+/* Secondary Navigation */
+.secondary-nav {
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0.5rem 2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Events Grid */
+.events-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.event-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    width: 250px;
+}
+
+.event-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-date {
+    background: black;
+    color: white;
+    padding: 0.5rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.event-details {
+    padding: 1rem;
+}
+
+.event-type {
+    color: #666;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.event-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.event-time {
+    color: #666;
+    font-size: 0.875rem;
+}
